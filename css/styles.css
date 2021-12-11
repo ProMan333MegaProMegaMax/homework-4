@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: #b7b7b7;
+    font-size: 14px;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 78px 0 102px;
+}
+
+.site-navigation {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.site-navigation li {
+    display: inline-block;
+}
+
+.site-navigation li:not(:last-child) {
+    margin-right: 100px;
+}
+
+.site-navigation a {
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 24px;
+    font-family: 'Playfair Display', serif;
+    color: #b7b7b7;
+    font-style: 14px;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #03a9f4;
+}
+
+.gallery {
+    font-size: 0;
+}
+
+.gallery-article {
+    display: inline-block;
+    width:  330px;
+    font-size: 14px;
+}
+
+.gallery-article:not(:nth-child(2n)) {
+    margin-right: 60px;
+}
+
+.gallery-article:not(:nth-child(n+2)) {
+    margin-bottom: 130px;
+}
+/* 
+img:first-child {
+    margin-bottom: 18px;
+}
+
+img:nth-child(2) {
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 11px;
+    margin-bottom: 26px;
+}
+
+h2 {
+    font-size: 23px;
+    color: grey;
+    margin-bottom: 32px;
+}
+
+.footer {
+    text-align: center;
+    margin-right: 250px;
+} */
+
+.gallery-article h3 {
+    font-family: 'Ubuntu',sans-serif;
+    text-decoration: uppercase;
+    font-size: 14px;
+    color: #b4ad9e;
+    font-weight: normal;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.gallery-article h2 {
+    font-size: 24px;
+    margin-bottom: 36px;
+    font-weight: normal;
+}
+
+.gallery-article p {
+    line-height: 24px;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 56px;
+}
+
+.load-button {
+    margin: 0;
+    padding: 18px 34px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 20px;
+    line-height: 24px;
+    background: none;
+    text-decoration: none;
+    border: 1px solid #626262;
+}
+
+.load-button:hover,
+.load-button:focus {
+    color: #03a9f4;
+    border-color: #03a9f4;
+    cursor: pointer;
+}
+
